@@ -3,9 +3,23 @@
     <head>
         <title>This is just test</title>
         <script src="clicker.js"></script>
+        <link rel="stylesheet" href="clicker.css">
     </head>
     <body>
         <p id="title">Clicker Test</p>
-        <div 
+        <div class="container">
+            <span id="text">Score:</span>
+            <span id="score">0</span>
+        </div>
+        
+        <div id="button" >CLICK ME</div>
+        <script>
+            let counter = 0;
+  
+            document.getElementById('button').onclick = () => {
+                counter = counter + 1;
+                document.getElementById('score').innerText = counter;
+            };
+        </script>
     </body>
 </html>
