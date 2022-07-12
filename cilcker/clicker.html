@@ -7,16 +7,16 @@
     </head>
     <body>
         <p id="title">Clicker Test</p>
-        <div class="container">
+        <div id="button">
             <span id="text">Score:</span>
             <span id="score">0</span>
         </div>
-        
-        <div id="button" >CLICK ME</div>
         <script>
             let counter = 0;
   
             document.getElementById('button').onclick = () => {
+                document.getElementById('button').style.width = '45%';
+                document.getElementById('button').style.width = '50%'
                 counter = counter + 1;
                 document.getElementById('score').innerText = counter;
             };

@@ -1,8 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body{
     background: linear-gradient(to right, #11998e, #38ef7d)
 }
 
 #title{
     text-align: center;
-    font-family: ;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-weight: bold;
+    user-select: none;
+    margin-top: 2%;
+}
+
+#button{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50px;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: bold;
+    user-select: none;
+    transition-duration: 0.15s;
+}
+
+#button:hover{
+    cursor: pointer;
+    transition-duration: 0.15s;
+    background-color: white;
+}
+
+#button:active{
+    transition-duration: 0.15s;
+    transform: scale(0.9);
 }
