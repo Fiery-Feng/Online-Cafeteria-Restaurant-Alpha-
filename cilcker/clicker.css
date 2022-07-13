@@ -25,16 +25,16 @@ body{
     font-size: 32px;
     font-weight: bold;
     user-select: none;
-    transition-duration: 0.15s;
+    transition-duration: 0.1s;
 }
 
 #button:hover{
     cursor: pointer;
-    transition-duration: 0.15s;
+    transition-duration: 0.1s;
     background-color: white;
 }
 
 #button:active{
-    transition-duration: 0.15s;
+    transition-duration: 0.1s;
     transform: scale(0.9);
 }
