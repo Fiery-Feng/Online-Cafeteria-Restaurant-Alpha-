@@ -15,17 +15,19 @@ body{
 
 #button{
     margin: auto;
-    width: 50%;
-    height: auto;
-    padding: 15px;
+    width: 400px;
+    height: 400px;
     text-align: center;
     border: 3px solid white;
-    border-radius: 50px;
+    border-radius: 100%;
     font-family: 'Montserrat';
-    font-size: 32px;
     font-weight: bold;
     user-select: none;
     transition-duration: 0.1s;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #button:hover{
