@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+body{
+    background-color:skyblue;
+}
+
+.navbar {
+    background-color: #2c5364;
+    overflow-x: hidden;
+    fill: #2c5364;
+    width: 1285px;
+    height: 50px;
+    position: relative;
+    top: -13px;
+    bottom: 80px;
+    right: 90px;
+    left: -13px;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Electrolize';
+}
+
+.navbar a:hover {
+    background-color:green;
+}
+
+.content1 {
+    background-color: green;
+}
